@@ -201,7 +201,7 @@ import time
 import keyboard
 import pyperclip
 
-message = "It Is Hacked ❌☠️"
+message = "You are Hacked ❌☠️"
 count = 100
 
 print("Open your WhatsApp group chat NOW...")
@@ -223,6 +223,7 @@ for i in range(count):
 
     # 🔥 Paste (Ctrl + V)
     pyautogui.hotkey("ctrl", "v")
+
 
     pyautogui.press("enter")
 
