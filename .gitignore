@@ -27,3 +27,16 @@ Thumbs.db
 *.tmp
 *.temp
 *.cache
+
+
+# ignore generated
+*.wav
+images/
+
+# allow samples
+!assets/
+!assets/*.wav
+!assets/*.jpg
+
+# ignore the Jarivs directory
+Jarvis/
