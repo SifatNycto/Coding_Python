@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    hello, 
+    {% if name %}
+        {{ name }}
+    {% else %}
+        world
+    {% endif %}
+
+{% endblock %}
+
